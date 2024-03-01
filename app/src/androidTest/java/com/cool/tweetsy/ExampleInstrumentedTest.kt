@@ -1,4 +1,4 @@
-package com.cool.urdupoetry
+package com.cool.tweetsy
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

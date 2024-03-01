@@ -1,19 +1,14 @@
-package com.cool.urdupoetry
+package com.cool.tweetsy
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.TopAppBarColors
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -24,19 +19,15 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.cool.urdupoetry.API.UrduPoetryAPI
-import com.cool.urdupoetry.screens.CategoryScreen
-import com.cool.urdupoetry.screens.DetailScreen
-import com.cool.urdupoetry.ui.theme.UrduPoetryTheme
-import com.cool.urdupoetry.viewmodels.CategoryViewModel
-import com.cool.urdupoetry.viewmodels.DetailViewModel
+import com.cool.tweetsy.screens.CategoryScreen
+import com.cool.tweetsy.screens.DetailScreen
+import com.cool.tweetsy.ui.theme.UrduPoetryTheme
+import com.cool.tweetsy.viewmodels.CategoryViewModel
+import com.cool.tweetsy.viewmodels.DetailViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-    @Inject
-    lateinit var urduPoetryAPI: UrduPoetryAPI
 
     @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {

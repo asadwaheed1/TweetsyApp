@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.cool.urdupoetry"
+    namespace = "com.cool.tweetsy"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.cool.urdupoetry"
+        applicationId = "com.cool.tweetsy"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

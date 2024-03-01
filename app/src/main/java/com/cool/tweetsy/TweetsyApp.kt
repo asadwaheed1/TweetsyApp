@@ -1,8 +1,8 @@
-package com.cool.urdupoetry
+package com.cool.tweetsy
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class UrduPoetry : Application() {
+class TweetsyApp : Application() {
 }

@@ -1,4 +1,4 @@
-package com.cool.urdupoetry.screens
+package com.cool.tweetsy.screens
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -24,10 +24,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import androidx.loader.content.Loader
-import com.cool.urdupoetry.viewmodels.DetailViewModel
+import com.cool.tweetsy.viewmodels.DetailViewModel
 import kotlinx.coroutines.delay
 
 @Composable

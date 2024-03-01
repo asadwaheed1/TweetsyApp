@@ -1,4 +1,4 @@
-package com.cool.urdupoetry.ui.theme
+package com.cool.tweetsy.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

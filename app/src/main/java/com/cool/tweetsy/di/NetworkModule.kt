@@ -1,6 +1,6 @@
-package com.cool.urdupoetry.di
+package com.cool.tweetsy.di
 
-import com.cool.urdupoetry.API.UrduPoetryAPI
+import com.cool.tweetsy.API.TweetsyAPI
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -21,7 +21,7 @@ class NetworkModule {
     }
     @Singleton
     @Provides
-    fun providesUrduPoetryAPI(retrofit: Retrofit): UrduPoetryAPI{
-        return retrofit.create(UrduPoetryAPI::class.java)
+    fun providesUrduPoetryAPI(retrofit: Retrofit): TweetsyAPI{
+        return retrofit.create(TweetsyAPI::class.java)
     }
 }

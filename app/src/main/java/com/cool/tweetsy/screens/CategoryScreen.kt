@@ -1,4 +1,4 @@
-package com.cool.urdupoetry.screens
+package com.cool.tweetsy.screens
 
 
 import androidx.compose.foundation.border
@@ -26,10 +26,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.navigation.NavHostController
-import com.cool.urdupoetry.R
-import com.cool.urdupoetry.viewmodels.CategoryViewModel
+import com.cool.tweetsy.R
+import com.cool.tweetsy.viewmodels.CategoryViewModel
 
 @Composable
 fun CategoryScreen(

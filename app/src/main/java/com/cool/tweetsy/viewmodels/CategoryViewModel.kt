@@ -1,15 +1,15 @@
-package com.cool.urdupoetry.viewmodels
+package com.cool.tweetsy.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.cool.urdupoetry.repository.UrduPoetryRepository
+import com.cool.tweetsy.repository.TweetsyRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class CategoryViewModel @Inject constructor(private val repository: UrduPoetryRepository) :
+class CategoryViewModel @Inject constructor(private val repository: TweetsyRepository) :
     ViewModel() {
 
     val categories: StateFlow<List<String>>

@@ -1,4 +1,4 @@
-package com.cool.urdupoetry.models
+package com.cool.tweetsy.models
 
 data class TweetListItem(
     val category: String,

@@ -1,4 +1,4 @@
-package com.cool.urdupoetry
+package com.cool.tweetsy
 
 import org.junit.Test
 
